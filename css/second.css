@@ -1,0 +1,185 @@
+@media (max-width: 1200px) {
+  /* Header */
+  header {
+    background-color: #ff3f4a;
+    height: 69px;
+    padding-top: 25px;
+  }
+  header .logo h1 {
+    display: inline-block;
+    margin-top: -14px;
+    color: #fff;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  header .nav ul {
+    list-style: none;
+    display: inline;
+  }
+  header .nav ul li {
+    display: inline;
+    padding: 26px 14px 22px 14px;
+    height: 70px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  header .nav ul li a {
+    font-size: 1rem;
+  }
+}
+
+/* 990px */
+@media (max-width: 990px) {
+  /* Pre Header */
+  .pre-header {
+    background-color: #fff;
+    height: 40px;
+    padding: 5px 0;
+  }
+  .pre-header h4 {
+    display: inline;
+    color: #474747;
+    padding: 10px 0 20px 20px;
+    font-size: 0.7rem;
+    word-spacing: 7px;
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='30' height='36' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🛠</text></svg>")
+        16 0,
+      auto; /*!emojicursor.app*/
+  }
+
+  /* Header */
+  header {
+    background-color: #ff3f4a;
+    height: 69px;
+    padding-top: 25px;
+  }
+  header .logo h1 {
+    display: inline-block;
+    margin-top: -14px;
+    color: #fff;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  header .nav ul {
+    list-style: none;
+    display: inline;
+  }
+  header .nav ul li {
+    display: inline;
+    padding: 26px 14px 22px 14px;
+    height: 70px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  header .nav ul li a {
+    font-size: 0.7rem;
+  }
+}
+
+/* 770px */
+@media (max-width: 770px) {
+  /* Pre Header */
+  .pre-header {
+    background-color: #fff;
+    height: 30px;
+    padding: 0;
+  }
+  .pre-header h4 {
+    display: inline;
+    color: #474747;
+    padding: 10px 0 20px 20px;
+    font-size: 0.7rem;
+    word-spacing: 7px;
+    opacity: 0;
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='30' height='36' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🛠</text></svg>")
+        16 0,
+      auto; /*!emojicursor.app*/
+  }
+  .pre-header .float-end {
+    position: fixed;
+    top: 3px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .pre-header ul li a {
+    display: inline;
+    text-align: center;
+    padding: 0 10px;
+    font-size: 0.9rem;
+    color: #ff3f4a;
+    transition: all 0.3s;
+  }
+  .pre-header ul li i:hover {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ff3f49cb;
+  }
+}
+
+/* 767px */
+@media only screen and (max-width: 767px) {
+  /* Header */
+  header {
+    background-color: #ff3f4a;
+    height: 55px;
+    padding-top: 20px;
+  }
+  header .logo h1 {
+    display: inline-block;
+    margin-top: -18px;
+    color: #fff;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  header .nav ul {
+    width: 100%;
+    height: 300px;
+    background-color: #a6000885;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 85px;
+    margin: 0 auto;
+    z-index: 2;
+  }
+  header .nav ul li {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 95%;
+    padding-top: -20px;
+    padding: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  header .nav ul li a {
+    position: relative;
+    top: 8px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.5s;
+  }
+  header .nav ul li a:hover {
+    color: rgba(255, 255, 255, 0.55);
+  }
+  header .nav i {
+    font-size: 1.4rem;
+    display: block;
+    position: relative;
+    padding-right: 20px;
+    top: -36px;
+    color: #fff;
+  }
+  #manuList {
+    overflow: hidden;
+    transition: all 0.5s;
+  }
+}
